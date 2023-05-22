@@ -10,7 +10,6 @@ header {
   background-color: $backheader;
   width: 100%;
   nav {
-    position: absolute;
     width: 100%;
     .container {
       width: 100%;
@@ -46,9 +45,8 @@ header {
 .hero {
   width: 100%;
   height: 1161px;
-  margin-top: -22px;
   background-color: $backheader;
-  overflow: hidden;
+ 
 
   .hero-content {
     width: 539.37px;
@@ -100,23 +98,21 @@ header {
   width: 100%;
   height: 742px;
   background-color: coral;
+  display: flex;
 
   .undraw-content{
     width: 100%;
-    //height: 742px;
+    height: 742px;
 
     .image{
       width: 540px;
       height: 524px;
       margin-top: 109px;
     }
- 
-    .left-content{
-      width: 540px;
-      height: 430px;
-    }
-
-
-
   }
+  .left-content{
+    width: 540px;
+    height: 430px;
+  }
+
 }
