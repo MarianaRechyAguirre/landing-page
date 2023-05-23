@@ -28,63 +28,172 @@ header nav .container .btn {
   font-weight: 500;
 }
 
-.hero {
-  width: 100%;
-  height: 1161px;
-  background-color: white;
-}
-.hero .hero-content {
+.text-content {
   width: 539.37px;
   height: 421px;
   margin-top: 303px;
+  margin-bottom: 338px;
   margin-left: 10%;
 }
-.hero .hero-content .intro {
+.text-content .introduce {
+  line-height: 30px;
+  color: #505f98;
+}
+.text-content .intro {
   font-weight: 500;
   font-size: 50px;
   line-height: 66px;
 }
-.hero .hero-content .button-container {
+.text-content .button-container {
   width: 100%;
   height: 100%;
 }
-.hero .hero-content .button-container .left-button {
+.text-content .button-container .left-button {
   background-color: #111b47;
   color: white;
   width: 189.13px;
   height: 36px;
   margin-right: 30px;
 }
-.hero .hero-content .button-container .right-button {
+.text-content .button-container .right-button {
   width: 189.13px;
   height: 36px;
   background: none;
 }
-.hero .designer {
-  width: 72%;
-  height: 1161px;
-}
-.hero .designer .path {
-  width: 100%;
-  margin-left: 40%;
-}
 
-.undraw-login {
-  width: 100%;
-  height: 742px;
-  background-color: coral;
-  display: flex;
-}
-.undraw-login .undraw-content {
+.undraw-content {
   width: 100%;
   height: 742px;
 }
-.undraw-login .undraw-content .image {
+.undraw-content .image {
   width: 540px;
   height: 524px;
-  margin-top: 109px;
+  margin-right: 165px;
 }
-.undraw-login .left-content {
+.undraw-content .left-content {
   width: 540px;
   height: 430px;
+  margin-left: 10%;
+}
+.undraw-content .left-content .top-info {
+  height: 204px;
+  margin-bottom: 80px;
+}
+.undraw-content .left-content .top-info .card-text {
+  color: #505f98;
+}
+.undraw-content .left-content .undraw-title {
+  font-size: 38px;
+  margin-bottom: 16px;
+  line-height: 95px;
+  font-weight: 500;
+}
+.undraw-content .left-content p {
+  line-height: 26px;
+}
+.undraw-content .left-content .card-one {
+  height: 138px;
+  margin-right: 30px;
+}
+.undraw-content .left-content .card-one p {
+  font-size: 12px;
+  margin-bottom: 5px;
+  height: 26px;
+}
+.undraw-content .left-content .card-one .icon {
+  width: 36px;
+  width: 36px;
+}
+.undraw-content .left-content .card-two {
+  height: 138px;
+}
+.undraw-content .left-content .card-two p {
+  font-size: 12px;
+  margin-bottom: 5px;
+  height: 26px;
+}
+.undraw-content .left-content .card-two .icon {
+  width: 36px;
+  width: 36px;
+}
+
+.large-cards {
+  width: 100%;
+  height: 569px;
+}
+.large-cards .flower {
+  width: 480px;
+  height: 316px;
+  margin-left: 10%;
+}
+.large-cards .left-content {
+  width: 445px;
+  height: 228px;
+  margin-right: 165px;
+}
+.large-cards .left-content .undraw-title {
+  font-size: 38px;
+  margin-bottom: 16px;
+  line-height: 95px;
+  font-weight: 500;
+}
+.large-cards .left-content .top-info {
+  height: 204px;
+  margin-bottom: 80px;
+}
+.large-cards .left-content .top-info .card-text {
+  color: #505f98;
+}
+.large-cards .left-content .btn {
+  width: 150px;
+  height: 32px;
+  color: white;
+  background-color: #111b47;
+  font-size: 12px;
+  border-radius: 2px;
+  font-weight: 500;
+}
+
+.section-price {
+  display: grid;
+  place-items: center;
+}
+.section-price .price-container {
+  width: 600px;
+}
+.section-price .price-container .price-title {
+  font-size: 38px;
+  line-height: 95px;
+  font-weight: 500;
+  text-align: center;
+}
+.section-price .price-container .price-text {
+  color: #505f98;
+  text-align: center;
+}
+.section-price .price-container .price {
+  font-size: 50px;
+  margin-bottom: 16px;
+  line-height: 66px;
+  font-weight: 500;
+  text-align: center;
+}
+.section-price .price-container .ui {
+  text-align: center;
+  color: #37447E;
+}
+.section-price .price-container .see {
+  text-align: center;
+  color: #5D6970;
+  font-size: 14px;
+}
+.section-price .price-container .btn {
+  width: 189px;
+  height: 31px;
+  color: white;
+  background-color: #111b47;
+  font-size: 12px;
+  border-radius: 2px;
+  font-weight: 500;
+  margin-left: 35%;
 }/*# sourceMappingURL=style.css.map */

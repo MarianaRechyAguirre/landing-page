@@ -1,9 +1,10 @@
-
 //Variables
 $backheader: white;
 $btn: #111b47;
 $text: #505f98;
 $path: #e7ecff;
+$text-two:#37447E;
+$text-gray:#5D6970;
 
 //Style header
 header {
@@ -39,32 +40,31 @@ header {
   }
 }
 
-
 //Style section1
 
-.hero {
-  width: 100%;
-  height: 1161px;
-  background-color: $backheader;
- 
+.text-content {
+  width: 539.37px;
+  height: 421px;
+  margin-top: 303px;
+  margin-bottom: 338px;
+  margin-left: 10%;
 
-  .hero-content {
-    width: 539.37px;
-    height: 421px;
-    margin-top: 303px;
-    margin-left: 10%;
+  .introduce{
+    line-height: 30px;
+    color: $text;
+  }
 
-    .intro {
-      font-weight: 500;
-      font-size: 50px;
-      line-height: 66px;
-    }
-    
-    .button-container{
-      width: 100%;
-      height: 100%;
-    
-    .left-button{
+  .intro {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 66px;
+  }
+
+  .button-container {
+    width: 100%;
+    height: 100%;
+
+    .left-button {
       background-color: $btn;
       color: $backheader;
       width: 189.13px;
@@ -72,47 +72,182 @@ header {
       margin-right: 30px;
     }
 
-    .right-button{
+    .right-button {
       width: 189.13px;
       height: 36px;
       background: none;
-    }
-  }
-  }
-
-  .designer {
-    width: 72%;
-    height: 1161px;
-   
-
-    .path {
-      width: 100%;
-      margin-left: 40%;
     }
   }
 }
 
 //Style section 2
 
-.undraw-login{
+.undraw-content {
   width: 100%;
   height: 742px;
-  background-color: coral;
-  display: flex;
 
-  .undraw-content{
-    width: 100%;
-    height: 742px;
 
-    .image{
-      width: 540px;
-      height: 524px;
-      margin-top: 109px;
-    }
+  .image {
+    width: 540px;
+    height: 524px;
+    margin-right: 165px;
   }
-  .left-content{
+
+  .left-content {
     width: 540px;
     height: 430px;
+    margin-left: 10%;
+
+    .top-info {
+      height: 204px;
+      margin-bottom: 80px;
+
+      .card-text{
+        color: $text;
+      }
+    }
+
+    .undraw-title {
+      font-size: 38px;
+      margin-bottom: 16px;
+      line-height: 95px;
+      font-weight: 500;
+    }
+
+    p{
+      line-height: 26px;
+    }
+     
+    .card-one{
+      height: 138px;
+      margin-right: 30px;
+      
+      p{
+        font-size: 12px;
+        margin-bottom: 5px;
+        height: 26px;
+      }
+      .icon{
+        width: 36px;
+        width: 36px;
+
+      }
+
+    }
+
+    .card-two{
+      height: 138px;
+      
+      p{
+        font-size: 12px;
+        margin-bottom: 5px;
+        height: 26px;
+      }
+      .icon{
+        width: 36px;
+        width: 36px;
+      }
+  }
+}
+}
+
+//Style section 3,4,5
+
+.large-cards{
+  width: 100%;
+  height: 569px;
+
+  .flower{
+    width: 480px;
+    height: 316px;
+    margin-left: 10%;
+  }
+
+  .left-content {
+    width: 445px;
+    height: 228px;
+    margin-right: 165px;
+
+    .undraw-title {
+      font-size: 38px;
+      margin-bottom: 16px;
+      line-height: 95px;
+      font-weight: 500;
+    }
+
+    .top-info {
+      height: 204px;
+      margin-bottom: 80px;
+
+      .card-text{
+        color: $text;
+      }
+    }
+
+    .btn {
+      width: 150px;
+      height: 32px;
+      color: $backheader;
+      background-color: $btn;
+      font-size: 12px;
+      border-radius: 2px;
+      font-weight: 500;
+    }
+
+}
+}
+
+//Style section 6
+.section-price{
+  display:grid;
+  place-items: center;
+
+  .price-container{
+    width: 600px;
+   
+  
+    .price-title {
+      font-size: 38px;
+      line-height: 95px;
+      font-weight: 500;
+      text-align: center;
+    }  
+  
+    .price-text{
+      color: $text;
+      text-align: center;
+    }  
+  
+    .price{
+      font-size: 50px;
+      margin-bottom: 16px;
+      line-height: 66px;
+      font-weight: 500;
+      text-align: center;
+    }
+  
+    .ui{
+      text-align: center;
+      color:$text-two;
+    }
+  
+    .see{
+      text-align: center;
+      color: $text-gray;
+      font-size: 14px;
+    }
+  
+    .btn {
+      width: 189px;
+      height: 31px;
+      color: $backheader;
+      background-color: $btn;
+      font-size: 12px;
+      border-radius: 2px;
+      font-weight: 500;
+      margin-left: 35%;
+    }
+  
   }
 
 }
