@@ -59,6 +59,7 @@ header nav .container .btn {
   width: 189.13px;
   height: 36px;
   background: none;
+  border-color: #111b47;
 }
 
 .undraw-content {
@@ -157,6 +158,7 @@ header nav .container .btn {
 .section-price {
   display: grid;
   place-items: center;
+  margin-bottom: 150px;
 }
 .section-price .price-container {
   width: 600px;
@@ -180,11 +182,11 @@ header nav .container .btn {
 }
 .section-price .price-container .ui {
   text-align: center;
-  color: #37447E;
+  color: #37447e;
 }
 .section-price .price-container .see {
   text-align: center;
-  color: #5D6970;
+  color: #5d6970;
   font-size: 14px;
 }
 .section-price .price-container .btn {
@@ -196,4 +198,47 @@ header nav .container .btn {
   border-radius: 2px;
   font-weight: 500;
   margin-left: 35%;
+}
+
+footer {
+  width: 100%;
+  background-color: #E7ECFF;
+}
+footer .top-container {
+  height: 200px;
+  margin-left: 10%;
+  margin-right: 165px;
+}
+footer .top-container .logo {
+  font-size: 38px;
+  font-weight: 900;
+}
+footer .top-container .btn {
+  width: 160px;
+  height: 26px;
+  color: white;
+  background-color: #111b47;
+  font-size: 12px;
+  border-radius: 2px;
+  font-weight: 500;
+}
+footer .top-container .company {
+  color: #939EA4;
+}
+footer .center-container {
+  display: grid;
+  place-items: center;
+}
+footer .below-container {
+  height: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+footer .below-container .menu {
+  width: 245px;
+  height: 24px;
+  color: #929ECC;
+}
+footer .below-container .icons {
+  width: 200px;
 }/*# sourceMappingURL=style.css.map */
